@@ -1,0 +1,367 @@
+*{
+    border: border-box;
+    margin: 0;
+    font-family: "National2-Medium", Arial, sans-serif;
+
+}
+.container {
+    position: sticky;
+    width: 100%;
+}
+
+
+.navbar-1{
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:.2px solid #62646a;
+    color:black;
+
+}
+
+.setLocation-text{
+    margin-left:15px ;
+    margin-right: 30px;
+
+}
+
+.location-btn{
+    height: 32px;
+    font-size: 12px;
+    width: 99px;
+    border-radius: 30px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 5px 9px;
+    margin-left: 23px;
+    color: #fff;
+    background-color: #202124;
+    border: none;
+
+}
+.nav-2{
+     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-2-left{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.logo-img{
+    background-image: url("https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg");
+    height: 23px;
+    width: 76px;
+
+}
+.space{
+    width: 30%;
+    height: 100px;
+}
+.menu button{
+    font-size: 20px;
+    margin-left: 20px;
+    width: 45%;
+    border: none;
+    background-color:#ffffff;
+    color: #202124;
+    margin-left: 50px;
+
+}
+.nav-2-right{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+
+}
+.sign-logo{
+    width: 20px;
+    height: 20px;
+    background-image: url("https://images.ctfassets.net/wtodlh47qxpt/6bJdGLRkksNvWP4LI9ZiFF/cb89d6393492fd093e0f99980abfa39e/Account_Icon.svg");
+}
+.sign{
+    padding: 10px;
+    font-weight: 600;
+    border-right: .1px solid rgb(87, 83, 83);
+}
+.cash{
+    padding: 10px;
+
+}
+.cart-icon{
+    width: 40px;
+    height: 40px;
+    background-image: url("https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg");
+}
+
+/* order-navbar */
+
+.order-nav{
+    height: 70px;
+    background-color: #202124;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orde-btn {
+    height: 45px;
+    width: 165px;
+    border-radius: 30px;
+    background-color: #e4002b;
+    color: #fff;
+    margin-left: 15px;
+    border:none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+
+
+}
+.hero-img{
+    height: 425px;
+    background-image: url("https://images.ctfassets.net/wtodlh47qxpt/5gf6cz2vMpCLgQ4M4XaUaj/8a10d03ec85203e7439e113d336f949d/Zinger_pro_1440x396px.jpg?w=1536&fit=fill&fm=webp");
+}
+.categories{
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categories-text{
+    width: 35%;
+    text-align: right;
+    font-size: 44px;
+    font-weight: 600;
+    color:#202124;
+   
+}
+.category-line{
+    width: 50%;
+    border: #62646a solid 0.11px;
+    margin-left: 30px;
+}
+
+/* product-menu */
+
+
+.product-menu{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 13%;
+    
+}
+.menu-card{
+    height: 263px;
+    width: 270px;
+    margin: 13px;
+    
+}
+.poduct-img{
+    height: 75%;
+    background-position: center;
+    background-size: cover;
+
+}
+.product-name i{
+margin-left: 10px;
+}
+.product-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #202124;
+    background: #f8f7f5;
+}
+.offerSection{
+    padding-left: 10%;
+    background-color:#202124;
+
+}
+.thre-Square{
+    display: flex;
+    height: 120px;
+}
+
+.red-Square{
+    height: 42px;
+    width: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #e4002b;
+    
+}
+.offersAndview{
+    height: 90px;
+    display: flex;
+
+}
+.offer-text{
+    height: 25px;
+    color: #f8f7f5;
+    font-size: 43px;
+    font-weight: 700;
+    width: 80%;
+}
+.view-all{
+    height: 25px;
+    color: #f8f7f5;
+    text-align: center;
+    display: flex;
+    width: 20%;
+
+}
+.view-all i{
+    margin-left: 10px;
+}
+.offerCards{
+    display: flex;
+    height: 500px;
+}
+.offerCard{
+    height: 400px;
+    width: 320px;
+    border-radius: 15px;
+    margin-top: 5px;
+
+    background-color: #fff;
+    color: #202124;
+    margin-right: 40px;
+    margin-bottom: 200px;
+}
+.offerCard-img{
+    height: 235px;
+    width: 100%;
+    background-size: contain;
+    
+
+}
+.offerCard-tile{
+    height: 43px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #e4002b;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+
+}
+.offerCard-p{
+    height: 48px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #202124;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.btnb-view{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    border: .1px  solid #202124;
+    background-color: #fdfbfb;
+    width: 177px;
+    height: 46px;
+    border-radius: 30px;
+    margin-left: 5px;
+}
+
+.btn-view{
+    order: none;
+    background: none;
+    text-decoration: underline;
+    padding: initial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #494949;
+    border: none;
+    
+
+}
+.offerCard-btn-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line-w{
+    height: 2px;
+    width:  80%;
+    background-color: #62646a;
+}
+.foot{
+  
+    height: 335px;
+    background-color: #202124;
+    color: #f8f7f5;
+    padding-top: 210px;
+    padding-left: 125px;
+    padding-right: 100px;
+    text-align: center;
+
+}
+.footercard{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.foot-logo{
+    background-image: url("https://images.ctfassets.net/wtodlh47qxpt/25FSYFuEtGct8NSrtpKe6d/b602f6fe0bf294e6a6dff5d7648bf594/KFC_Logo.svg");
+    height: 100px;
+    background-size: cover;
+    width: 100px;
+}
+
+.footer-linkds li{
+   margin-bottom: 10px;
+    list-style: none;
+     text-align: left;
+     
+}
+.googlePlay-img{
+    background-image: url("https://images.ctfassets.net/wtodlh47qxpt/6BdZsyjLn64c06uCIE73d1/fb530f5d5231533b049463f6c7e8a2b1/google_play.svg");
+    height: 50px;
+    background-size: cover;
+    width: 150px;
+
+}
+.appStore-img{
+    background-image: url("https://images.ctfassets.net/wtodlh47qxpt/em3mcMuAdXWlgucSJiTbS/d3ae7e51ed101d829e459355e255c47f/apple.svg");
+    height: 50px;
+    background-size: cover;
+    width: 150px;
+
+}
+.copy{
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #202124;
+    color: #f8f7f5;
+}
